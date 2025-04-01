@@ -100,11 +100,11 @@ function App() {
   return (
 
     <>
-      <div className="h-screen flex justify-center items-center bg-[#f1f1f1]">
+      <div className="h-screen flex justify-center items-center px-2.5 bg-[#f1f1f1]">
         <div>
           {/* ===================== Heading & SubHeading ===================== */}
           <h1 className="text-3xl text-center uppercase">TaskSavvy</h1>
-          <p className="max-w-80 text-center mb-7 mt-2 text-gray-600">A complete ToDo project with CRUD oparetions in Firebase using React & Tailwind</p>
+          <p className="max-w-80 mx-auto text-center mb-7 mt-2 text-gray-600">A complete ToDo project with CRUD oparetions in Firebase using React & Tailwind</p>
           <div className="flex gap-3">
 
             {/* ===================== Task Input & Add Button ===================== */}
